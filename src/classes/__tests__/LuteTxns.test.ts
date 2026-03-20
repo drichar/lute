@@ -63,6 +63,7 @@ function makeSuggestedParams(
   return {
     flatFee: true,
     fee: 1000n,
+    minFee: 1000n,
     firstValid: 1000n,
     lastValid: 2000n,
     genesisID: GENESIS_ID,
